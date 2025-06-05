@@ -9,19 +9,12 @@
 <body>
 	<div>
 		<h1 style="text-align: center; color: red;">Registration Form 2.O</h1>
-		<form action="/RegisterForm/"></form>
+		<form action="/RegistrationForm/RegisterForm" method="post">
 		<table>
 			<tr>
 				<td>First Name :</td>
-				<td><input type="text" id="firstname" name="firstname" required></td>
+				<td><input type="text" id="firstname" name="firstname" required="required"></td>
 			</tr>
-
-			<tr>
-				<td>First Name:</td>
-				<td><input type="text" id="firstname" name="firstname" required></td>
-			</tr>
-
-
 			<tr>
 				<td>Last Name :</td>
 				<td><input type="text" name="lastname"></td>
@@ -34,19 +27,20 @@
 				<td>Password :</td>
 				<td><input type="password" name="password"></td>
 			</tr>
-			<tr>
+			<!-- <tr>
 				<td>Contact :</td>
 				<td><input type="number" name="contact"></td>
-			</tr>
+			</tr>-->
 			<tr>
 				<td>Address :</td>
 				<td><input type="text" name="address"></td>
 			</tr>
 
 			<tr>
-				<td padding left=30%><input type="submit" name="submit"></td>
+				<td><input type="submit" name="submit"></td>
 			</tr>
 		</table>
+		</form>
 	</div>
 </body>
 </html>
